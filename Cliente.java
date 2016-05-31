@@ -1,3 +1,5 @@
+package crud;
+
 public class Cliente
 {
 	private Integer codigo;

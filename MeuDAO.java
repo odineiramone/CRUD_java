@@ -1,3 +1,5 @@
+package crud;
+
 import java.sql.*;
 
 public class MeuDAO
@@ -11,7 +13,7 @@ public class MeuDAO
 	{
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
 
-		String url = "jdbc:mysql://localhost:3306/crud_java?user=root&password=toortoor&autoReconnect=true&useSSL=false";
+		String url = "jdbc:mysql://localhost:3306/crud_java?user=root&password=";
 		con = DriverManager.getConnection(url);
 	}
 
